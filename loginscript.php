@@ -24,11 +24,11 @@ $full_name = "";
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         if (
-            strtolower($row["uname"]) == strtolower($_POST["username"]) &&
-            password_verify($_POST["password"], $row["pword"])
+            strtolower($row["username"]) == strtolower($_POST["username"]) &&
+            password_verify($_POST["password"], $row["password"])
         ) {
             $login_success = true;
-            $currentUser = $row["uname"];
+            $currentUser = $row["username"];
         }
     }
 } else {

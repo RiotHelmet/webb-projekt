@@ -33,7 +33,7 @@
 
 
     <div id="header-dropdown" class="header-dropdown-content">
-        <a href="#">Link 1</a>
+        <a href="profile.php?' . $_SESSION["username"] . '">Profile</a>
         <a href="#">Link 2</a>
         <a href="logoutscript.php">Log Out</a>
     </div>

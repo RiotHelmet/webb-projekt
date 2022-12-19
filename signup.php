@@ -23,6 +23,9 @@
         Last name:<br>
         <input type="text" name="lastname" required>
         <br>
+        Email:<br>
+        <input type="email" name="email" required>
+        <br>
         Username:<br>
         <input type="text" name="username" required>
         <br>
